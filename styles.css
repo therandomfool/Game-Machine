@@ -9,19 +9,21 @@ body {
   font-family: 'Fjalla One', sans-serif;
 }
 button {
-  color:#454545;
+  color:#040404;
+  background: #613eee;
   width: 220px;
   height: 90px;
-  background:transparent;
-  border: 2px solid #454545;
+  border: 2px solid #100053;
   position:relative;
-  margin:1em;
-  padding:0.5em 1em;
+  
+  padding:1em;
   transition:all 0.4s ease-in-out;
   font-weight:900;
   font-size: .92rem;
-  
+  display: flex;
   cursor: pointer;
+  /* text-align: center; */
+  margin: 1.6em auto;
 }
 
 button:before, button:after{
@@ -48,7 +50,7 @@ button:after {
 button:hover:before, button:hover:after {
   width:calc(100% + 12px);
   height:calc(100% + 12px);
-  border-color:#fff
+  border-color:#100053;
 }
 
 button:hover {
@@ -58,18 +60,20 @@ button:hover {
 }
 
 .pannello {
-  position: absolute;;
+  position: absolute;
   text-align:center;
   display: block;
   /* white-space: nowrap;                  */
   left: 50%;                          
-  top: 50vh;                           
+  top: 56.9vh;                           
   transform: translate(-50%,-50%);      
 }
 
 h1{
+    letter-spacing: .29em;
     text-align: center;
-    margin-top: 5%;
+    display: block;
+    margin-top: 100px;
     font-size: 3em;
     color: #100053;
     cursor: help;
