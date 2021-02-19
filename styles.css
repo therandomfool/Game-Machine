@@ -12,7 +12,7 @@ button {
   color:#040404;
   background: #613eee;
   width: 220px;
-  height: 90px;
+  height: 60px;
   border: 2px solid #100053;
   position:relative;
   
@@ -22,7 +22,8 @@ button {
   font-size: .92rem;
   display: flex;
   cursor: pointer;
-  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
   margin: 1.6em auto;
 }
 
