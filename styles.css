@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+  background: url(assets/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Fjalla One', sans-serif;
+}
+button {
+  color:#454545;
+  width: 220px;
+  height: 90px;
+  background:transparent;
+  border: 2px solid #454545;
+  position:relative;
+  margin:1em;
+  padding:0.5em 1em;
+  transition:all 0.4s ease-in-out;
+  font-weight:900;
+  font-size: .92rem;
+  
+  cursor: pointer;
+}
+
+button:before, button:after{
+  content:'';
+  position:absolute;
+  border-color:#454545;
+  box-sizing:border-box;
+  border-style:solid;
+  width:1em;height:1em;
+  transition:all 0.4s ease-in-out
+}
+
+button:before {
+  top:-6px;left:-6px;
+  border-width:2px 0 0 2px;
+}
+
+button:after {
+  bottom:-6px;
+  right:-6px;
+  border-width:0 2px 2px 0;
+}
+
+button:hover:before, button:hover:after {
+  width:calc(100% + 12px);
+  height:calc(100% + 12px);
+  border-color:#fff
+}
+
+button:hover {
+  color:rgb(174, 159, 0);
+  background-color:#100053;
+  border-color:rgb(174, 159, 0);
+}
+
+.pannello {
+  position: absolute;;
+  text-align:center;
+  display: block;
+  /* white-space: nowrap;                  */
+  left: 50%;                          
+  top: 50vh;                           
+  transform: translate(-50%,-50%);      
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 3em;
+    color: #100053;
+    cursor: help;
+}
+
