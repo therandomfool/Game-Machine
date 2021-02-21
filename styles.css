@@ -79,9 +79,18 @@ h1{
     letter-spacing: .29em;
     text-align: center;
     display: block;
-    margin-top: 1%;
-    font-size: 3em;
+    margin-top: -100px;
+    font-size: 2em;
     color: #100053;
     cursor: help;
+}
+
+h4{
+  margin-top: 5px;
+}
+
+.info{
+  
+  text-align: center;
 }
 
