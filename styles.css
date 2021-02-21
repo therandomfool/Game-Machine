@@ -8,11 +8,16 @@ body {
   background-size: cover;
   font-family: 'Fjalla One', sans-serif;
 }
+
+a{
+  text-decoration: none;
+}
+
 button {
   color:#040404;
   background: #613eee;
   width: 220px;
-  height: 60px;
+  height: 50px;
   border: 2px solid #100053;
   position:relative;
   
@@ -74,7 +79,7 @@ h1{
     letter-spacing: .29em;
     text-align: center;
     display: block;
-    margin-top: 100px;
+    margin-top: 1%;
     font-size: 3em;
     color: #100053;
     cursor: help;

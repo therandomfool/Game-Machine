@@ -11,3 +11,14 @@ document.getElementById("chess").onclick = function () {
 document.getElementById("mastermind").onclick = function () {
     location.href = "https://elastic-engelbart-96af88.netlify.app/" ;
 };
+
+
+document.getElementById("tetris").onclick = function () {
+    location.href = "https://elastic-engelbart-96af88.netlify.app/" ;
+};
+
+
+document.getElementById("p2048").onclick = function () {
+    location.href = "https://suspicious-boyd-9099d3.netlify.app/" ;
+    return !window.open(this);
+};
