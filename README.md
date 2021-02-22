@@ -12,7 +12,7 @@
 
 - 2 Player Chess
 
-
+- Tetris GameBone
 
 
 ![Game Machine JS](assets/gamemachine.gif)
