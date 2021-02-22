@@ -94,3 +94,7 @@ h4{
   text-align: center;
 }
 
+#info {
+  cursor: help;
+}
+
